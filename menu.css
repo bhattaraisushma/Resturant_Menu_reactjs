@@ -1,0 +1,48 @@
+.menu{
+    background-color: black;
+    color: aliceblue;
+    height: 3rem;
+  
+    
+
+}
+.menu ul{
+    list-style-type: none;
+    display: flex;
+flex-direction: row;
+gap: 5rem;
+justify-content: center;
+padding-top: 1rem;
+
+}
+.menu li{
+    cursor: pointer;
+}
+
+.menu li:hover{
+    border: 2px solid white;
+
+}
+.row{
+    display: flex;
+    margin-left: 4rem;
+  flex-wrap:wrap;
+
+    
+}
+@media screen and (max-width:380px) {
+    .menu{
+        
+height: 4rem;
+    }
+    .menu ul{
+        gap:0.5rem;
+     
+    }
+    .row{
+        margin-left: 1rem;
+        display: flex;
+        flex-direction: row;
+    }
+    
+}
