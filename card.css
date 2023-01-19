@@ -12,9 +12,13 @@
 margin-bottom: 3rem;
    
 }
+.card-container:hover{
+  border: 2px solid black;
+}
 .c-name{
   text-align: center;
 padding-top: 1rem;
+font-weight: bold;
 }
 
 .card-container img{
