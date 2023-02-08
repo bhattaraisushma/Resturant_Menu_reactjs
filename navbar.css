@@ -2,7 +2,7 @@
     
 
  height: 10vh;
- position: static;
+ position: fixed;
 margin-top: 10px;
   padding-left: 25rem;
 }
